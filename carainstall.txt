@@ -1,0 +1,17 @@
+1. cari file yang sudah di unduh, pindahkan file ke /storage/emulated/0
+
+2. masuk apk termux (https://f-droid.org/repo/com.termux_118.apk)
+copy & paste 1 per 1:
+termux-setup-storage -y
+pkg install git -y && pkg install nodejs -y
+cd /sdcard
+cp -f dnzbot.zip $HOME
+cd
+unzip dnzbot.zip
+cd dnzbot
+npm start
+
+3. masuk apk whatsapp scan barcode yang muncul dilayar termux
+
+terimakasih telah membeli script dnzbot
+jangan lupa subscribe dcode denpa
